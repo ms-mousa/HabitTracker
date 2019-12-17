@@ -1,41 +1,43 @@
 {
-    "name": "habits-parrot",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "dev": "nodemon ./src/server/server.js",
-        "build": "next build ./src",
-        "start": "NODE_ENV=production node ./src/server.js"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "@chakra-ui/core": "^0.5.1",
-        "@emotion/babel-preset-css-prop": "^10.0.23",
-        "@emotion/core": "^10.0.22",
-        "@emotion/styled": "^10.0.23",
-        "body-parser": "^1.19.0",
-        "dotenv": "^8.2.0",
-        "dotenv-webpack": "^1.7.0",
-        "emotion-theming": "^10.0.19",
-        "express": "^4.17.1",
-        "isomorphic-fetch": "^2.2.1",
-        "mongoose": "^5.8.1",
-        "next": "^9.1.5",
-        "nodemon": "^2.0.2",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0"
-    },
-    "devDependencies": {
-        "babel-eslint": "^10.0.3",
-        "eslint": "^6.7.2",
-        "eslint-config-airbnb": "^18.0.1",
-        "eslint-plugin-emotion": "^10.0.14",
-        "eslint-plugin-import": "^2.19.1",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-react": "^7.17.0",
-        "eslint-plugin-react-hooks": "^2.3.0"
-    }
+  "name": "habits-parrot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server/server.js",
+    "front": "next ./src",
+    "build": "next build ./src",
+    "start": "NODE_ENV=production node ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chakra-ui/core": "^0.5.1",
+    "@emotion/babel-preset-css-prop": "^10.0.23",
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "^10.0.23",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "dotenv-webpack": "^1.7.0",
+    "emotion-theming": "^10.0.19",
+    "express": "^4.17.1",
+    "framer-motion": "^1.7.0",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^5.8.1",
+    "next": "^9.1.5",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-emotion": "^10.0.14",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
+  }
 }
