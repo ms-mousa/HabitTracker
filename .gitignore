@@ -1,4 +1,5 @@
 /node_modules
+/src/server/secrets.js
 .bablerc
 .env
 .eslintrc

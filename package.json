@@ -4,7 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "next ./src"
+        "dev": "nodemon ./src/server/server.js",
+        "build": "next build ./src",
+        "start": "NODE_ENV=production node ./src/server.js"
     },
     "keywords": [],
     "author": "",
@@ -22,6 +24,7 @@
         "isomorphic-fetch": "^2.2.1",
         "mongoose": "^5.8.1",
         "next": "^9.1.5",
+        "nodemon": "^2.0.2",
         "react": "^16.12.0",
         "react-dom": "^16.12.0"
     },
