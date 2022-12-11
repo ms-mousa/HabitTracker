@@ -21,7 +21,7 @@
     "dotenv": "^8.2.0",
     "dotenv-webpack": "^1.7.0",
     "emotion-theming": "^10.0.19",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "framer-motion": "^1.7.0",
     "isomorphic-fetch": "^2.2.1",
     "mongoose": "^5.8.1",
